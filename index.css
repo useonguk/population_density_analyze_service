@@ -1,4 +1,28 @@
-#map {
+.map {
   width: 100vw;
   height: 100vh;
+  position: relative;
+}
+
+.type {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: white;
+  width: 100px;
+  height: inherit;
+  padding: 10px 10px;
+  text-align: center;
+  z-index: 999;
+}
+
+.custom_zoomcontrol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  gap: 10px;
+  z-index: 999;
 }

@@ -7,20 +7,20 @@
     <link rel="stylesheet" href="reset.css" />
   </head>
   <body>
-    <div id="map"></div>
+    <div id="map" class="map"></div>
     <div class="custom_zoomcontrol radius_border">
-      <span onclick="zoomIn()"
+      <span onclick="zoomIn()" class="zoomIn"
         ><img
           src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_plus.png"
           alt="확대"
       /></span>
-      <span onclick="zoomOut()"
+      <span onclick="zoomOut()" class="zoomOut"
         ><img
           src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_minus.png"
           alt="축소"
       /></span>
     </div>
-    <div id="type" onclick="changeMapType()"></div>
+    <div id="type" class="type" onclick="changeMapType()">위성사진</div>
     <script
       type="text/javascript"
       src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c9a988f3a0c35045756aa3fb51a73e8a"
