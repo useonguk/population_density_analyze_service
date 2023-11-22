@@ -1,8 +1,31 @@
-var container = document.getElementById("map"); //지도를 담을 영역의 DOM 레퍼런스
+var container = document.getElementById("map");
+var mapType = document.getElementById("type");
+var type = true;
+
+mapType.innerHTML = type ? "위성사진" : "지도";
+
 var options = {
-  //지도를 생성할 때 필요한 기본 옵션
-  center: new kakao.maps.LatLng(33.450701, 126.570667), //지도의 중심좌표.
-  level: 3, //지도의 레벨(확대, 축소 정도)
+  center: new kakao.maps.LatLng(37.4563, 126.7052),
+  level: 3,
 };
 
-var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
+var map = new kakao.maps.Map(container, options);
+//로드뷰 위치 보여주기
+// map.addOverlayMapTypeId(kakao.maps.MapTypeId.ROADVIEW);
+
+function zoomOut() {
+  map.setLevel(map.getLevel() + 1);
+}
+
+function zoomIn() {
+  map.setLevel(map.getLevel() - 1);
+}
+
+function changeMapType() {
+  type = !type;
+  if (type) {
+    map.setMapTypeId(kakao.maps.MapTypeId.ROADMAP);
+  } else {
+    map.setMapTypeId(kakao.maps.MapTypeId.HYBRID);
+  }
+}
