@@ -29,3 +29,11 @@
   gap: 10px;
   z-index: 999;
 }
+
+div {
+  width: 300px;
+  height: 250px;
+  background-size: 100%; /* 가로 100px, 세로 50px */
+  background-repeat: no-repeat;
+  background-position: center;
+}

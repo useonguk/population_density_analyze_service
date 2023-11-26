@@ -565,10 +565,6 @@ var positions = [
     latlng: new kakao.maps.LatLng(37.6194, 126.4244),
   },
   {
-    content: "<div>중</div>",
-    latlng: new kakao.maps.LatLng(37, 126),
-  },
-  {
     content: "<div>화수동</div>",
     latlng: new kakao.maps.LatLng(37.485, 126.6299),
   },
@@ -579,6 +575,11 @@ var positions = [
   {
     content: "<div>효성동</div>",
     latlng: new kakao.maps.LatLng(37.5318, 126.7022),
+  },
+  {
+    content:
+      "<div style=\"background-image: url('./img/효성동.png')\">힝구리</div>",
+    latlng: new kakao.maps.LatLng(37, 126),
   },
 ];
 
