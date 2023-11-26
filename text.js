@@ -504,6 +504,82 @@ var positions = [
     content: "<div>중앙동3가</div>",
     latlng: new kakao.maps.LatLng(37.472, 126.6229),
   },
+  {
+    content: "<div>창영동</div>",
+    latlng: new kakao.maps.LatLng(37.4707, 126.6408),
+  },
+  {
+    content: "<div>청라동</div>",
+    latlng: new kakao.maps.LatLng(37.5345, 126.6277),
+  },
+  {
+    content: "<div>청천동</div>",
+    latlng: new kakao.maps.LatLng(37.5163, 126.7052),
+  },
+  {
+    content: "<div>청학동</div>",
+    latlng: new kakao.maps.LatLng(37.4248, 126.6665),
+  },
+  {
+    content: "<div>평동</div>",
+    latlng: new kakao.maps.LatLng(37.5835, 126.7716),
+  },
+  {
+    content: "<div>하야동</div>",
+    latlng: new kakao.maps.LatLng(37.5809, 126.7859),
+  },
+  {
+    content: "<div>하점면</div>",
+    latlng: new kakao.maps.LatLng(37.7628, 126.4004),
+  },
+  {
+    content: "<div>학익동</div>",
+    latlng: new kakao.maps.LatLng(37.4395, 126.6547),
+  },
+  {
+    content: "<div>항동1가</div>",
+    latlng: new kakao.maps.LatLng(37.4739, 126.6168),
+  },
+  {
+    content: "<div>항동2가</div>",
+    latlng: new kakao.maps.LatLng(37.4724, 126.6176),
+  },
+  {
+    content: "<div>항동4가</div>",
+    latlng: new kakao.maps.LatLng(37.4714, 126.6205),
+  },
+  {
+    content: "<div>항동5가</div>",
+    latlng: new kakao.maps.LatLng(37.4707, 126.6217),
+  },
+  {
+    content: "<div>항동7가</div>",
+    latlng: new kakao.maps.LatLng(37.4499, 126.6183),
+  },
+  {
+    content: "<div>항동3가</div>",
+    latlng: new kakao.maps.LatLng(37.4721, 126.6194),
+  },
+  {
+    content: "<div>화도면</div>",
+    latlng: new kakao.maps.LatLng(37.6194, 126.4244),
+  },
+  {
+    content: "<div>중</div>",
+    latlng: new kakao.maps.LatLng(37, 126),
+  },
+  {
+    content: "<div>화수동</div>",
+    latlng: new kakao.maps.LatLng(37.485, 126.6299),
+  },
+  {
+    content: "<div>화평동</div>",
+    latlng: new kakao.maps.LatLng(37.4791, 126.631),
+  },
+  {
+    content: "<div>효성동</div>",
+    latlng: new kakao.maps.LatLng(37.5318, 126.7022),
+  },
 ];
 
 for (var i = 0; i < positions.length; i++) {
