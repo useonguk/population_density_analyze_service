@@ -385,60 +385,124 @@ var positions = [
     latlng: new kakao.maps.LatLng(37.4774, 126.6998),
   },
   {
-    content: "<div>송</div>",
-    latlng: new kakao.maps.LatLng(37, 126),
+    content: "<div>양도면</div>",
+    latlng: new kakao.maps.LatLng(37.6731, 126.4325),
   },
   {
-    content: "<div>송</div>",
-    latlng: new kakao.maps.LatLng(37, 126),
+    content: "<div>양사면</div>",
+    latlng: new kakao.maps.LatLng(37.8019, 126.402),
   },
   {
-    content: "<div>송</div>",
-    latlng: new kakao.maps.LatLng(37, 126),
+    content: "<div>양흥면</div>",
+    latlng: new kakao.maps.LatLng(37.2586, 126.462),
   },
   {
-    content: "<div>송</div>",
-    latlng: new kakao.maps.LatLng(37, 126),
+    content: "<div>연수동</div>",
+    latlng: new kakao.maps.LatLng(37.4204, 126.6833),
   },
   {
-    content: "<div>송</div>",
-    latlng: new kakao.maps.LatLng(37, 126),
+    content: "<div>연희동</div>",
+    latlng: new kakao.maps.LatLng(37.549338272606, 126.67497196652),
   },
   {
-    content: "<div>송</div>",
-    latlng: new kakao.maps.LatLng(37, 126),
+    content: "<div>오류동</div>",
+    latlng: new kakao.maps.LatLng(37.5947, 126.6195),
   },
   {
-    content: "<div>송</div>",
-    latlng: new kakao.maps.LatLng(37, 126),
+    content: "<div>옥련동</div>",
+    latlng: new kakao.maps.LatLng(37.4243, 126.6485),
   },
   {
-    content: "<div>송</div>",
-    latlng: new kakao.maps.LatLng(37, 126),
+    content: "<div>왕길동</div>",
+    latlng: new kakao.maps.LatLng(126.6485, 126.6508),
   },
   {
-    content: "<div>송</div>",
-    latlng: new kakao.maps.LatLng(37, 126),
+    content: "<div>용동</div>",
+    latlng: new kakao.maps.LatLng(37.4732, 126.6312),
   },
   {
-    content: "<div>송</div>",
-    latlng: new kakao.maps.LatLng(37, 126),
+    content: "<div>용종동</div>",
+    latlng: new kakao.maps.LatLng(37.5408, 126.7448),
   },
   {
-    content: "<div>송</div>",
-    latlng: new kakao.maps.LatLng(37, 126),
+    content: "<div>용현동</div>",
+    latlng: new kakao.maps.LatLng(37.4517, 126.6471),
   },
   {
-    content: "<div>송</div>",
-    latlng: new kakao.maps.LatLng(37, 126),
+    content: "<div>운남동</div>",
+    latlng: new kakao.maps.LatLng(37.4848, 126.5297),
   },
   {
-    content: "<div>송</div>",
-    latlng: new kakao.maps.LatLng(37, 126),
+    content: "<div>운북동</div>",
+    latlng: new kakao.maps.LatLng(37.5147, 126.5173),
   },
   {
-    content: "<div>송</div>",
-    latlng: new kakao.maps.LatLng(37, 126),
+    content: "<div>운서동</div>",
+    latlng: new kakao.maps.LatLng(37.4695, 126.4508),
+  },
+  {
+    content: "<div>운연동</div>",
+    latlng: new kakao.maps.LatLng(37.4396, 126.7643),
+  },
+  {
+    content: "<div>원당동</div>",
+    latlng: new kakao.maps.LatLng(37.5969, 126.7079),
+  },
+  {
+    content: "<div>유동</div>",
+    latlng: new kakao.maps.LatLng(37.4697, 126.637),
+  },
+  {
+    content: "<div>을왕동</div>",
+    latlng: new kakao.maps.LatLng(37.4553, 126.3794),
+  },
+  {
+    content: "<div>이화동</div>",
+    latlng: new kakao.maps.LatLng(37.5871, 126.7386),
+  },
+  {
+    content: "<div>인현동</div>",
+    latlng: new kakao.maps.LatLng(37.4749, 126.6314),
+  },
+  {
+    content: "<div>일신동</div>",
+    latlng: new kakao.maps.LatLng(37.4797, 126.7487),
+  },
+  {
+    content: "<div>임학동</div>",
+    latlng: new kakao.maps.LatLng(37.5472, 126.7342),
+  },
+  {
+    content: "<div>작전동</div>",
+    latlng: new kakao.maps.LatLng(37.5298, 126.7298),
+  },
+  {
+    content: "<div>장기동</div>",
+    latlng: new kakao.maps.LatLng(37.5759, 126.7351),
+  },
+  {
+    content: "<div>장수동</div>",
+    latlng: new kakao.maps.LatLng(37.4589, 126.7611),
+  },
+  {
+    content: "<div>전동</div>",
+    latlng: new kakao.maps.LatLng(37.4772, 126.6261),
+  },
+  {
+    content: "<div>주안동</div>",
+    latlng: new kakao.maps.LatLng(37.463182225352, 126.69487873676),
+  },
+  {
+    content: "<div>중산동</div>",
+    latlng: new kakao.maps.LatLng(37.4992, 126.5597),
+  },
+  {
+    content: "<div>중앙동1가</div>",
+    latlng: new kakao.maps.LatLng(37.4735, 126.6205),
+  },
+  {
+    content: "<div>중앙동3가</div>",
+    latlng: new kakao.maps.LatLng(37.472, 126.6229),
   },
 ];
 
