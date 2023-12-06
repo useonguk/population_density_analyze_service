@@ -665,7 +665,7 @@ var positions = [
   },
   {
     content:
-      "<div style=\"background-image: url('./img/항동3가.png')\">항동3가</div>",
+      "<div style=\"background-image: url('./img/향동3가.png')\">항동3가</div>",
     latlng: new kakao.maps.LatLng(37.4721, 126.6194),
   },
   {
