@@ -1,5 +1,4 @@
 // import positions from "./list";
-// import positions from "./list";
 
 //마커
 // 마커를 표시할 위치와 내용을 가지고 있는 객체 배열입니다
@@ -690,8 +689,6 @@ var positions = [
     latlng: new kakao.maps.LatLng(37.5318, 126.7022),
   },
 ];
-
-export default positions;
 
 var container = document.getElementById("map");
 var mapType = document.getElementById("type");
